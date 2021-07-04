@@ -6,9 +6,6 @@ The python script prepared using openCV and numpy functions can be used to conve
 
 We first resize the image, apply gaussian blur on it and use a canny edge detection algorithm to identify the edges present in the image. The image is accentuated via dilation and white noises are removed via erosion. After this, the contours are detected and the largest contour is used for applying Warp perspective to the image to remove the skewness present in the image and for the final effect, we have used adaptive thresholding coupled with bitwise not and median blurring operation.
 
-Visualizing the output of code
-
-![Initial Image 1](https://drive.google.com/file/d/1SdhriReJ7GD3xoAwdcjuMIM3BAAAQi5h/view?usp=sharing)
 
 
 Click here to view our [Documentation](https://github.com/videetas/Document-Scanner/blob/main/Documentation.pdf).
