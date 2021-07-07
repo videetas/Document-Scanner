@@ -92,7 +92,9 @@ The bitwise not function flips the values of the pixels of the image, All pixels
 Used for noise reduction, Take the median of all the pixel values in the kernel region and replace the central element with the median value. We used a 3x3 kernel to implement this by using cv2.medianBlur.
 
 
-Click here to view our [Code](https://github.com/videetas/Document-Scanner/blob/main/DocumentScanner.ipynb).
+## Code
+
+The code can be found [here](https://github.com/videetas/Document-Scanner/blob/main/DocumentScanner.ipynb).
 
 
 
